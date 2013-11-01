@@ -17,10 +17,13 @@ setup(
     author='Caroline Simpson',
     author_email='csimpson@cigionline.org',
     install_requires=[
-        'south(>=0.8.1)',
+        'south >= 0.8.1',
+    ],
+    setup_requires=[
+        'south >= 0.8.1',
     ],
     requires=[
-        'south(>=0.8.1)',
+        'south >= 0.8.1',
     ],
     classifiers=[
         'Environment :: Web Environment',

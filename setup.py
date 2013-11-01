@@ -16,6 +16,9 @@ setup(
     url='https://github.com/CIGIHub/django-simple-api-key/',
     author='Caroline Simpson',
     author_email='csimpson@cigionline.org',
+    install_requires=[
+        'south(>=0.8.1)',
+    ],
     requires=[
         'south(>=0.8.1)',
     ],

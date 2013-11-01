@@ -23,7 +23,7 @@ setup(
         'south >= 0.8.1',
     ],
     requires=[
-        'south >= 0.8.1',
+        'south (>= 0.8.1)',
     ],
     classifiers=[
         'Environment :: Web Environment',

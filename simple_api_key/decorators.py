@@ -1,12 +1,14 @@
 from models import APIKey
 from django.http import HttpResponseForbidden
 import json
+import functools
 
 
 class api_key_required(object):
 
     def __init__(self, func):
         self.func = func
+        functools.wraps(self.func)(self)
 
     def __call__(self, request, *args, **kwargs):
         data = json.loads(request.body)

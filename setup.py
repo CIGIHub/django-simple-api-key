@@ -8,7 +8,7 @@ os.chdir(os.path.normpath(os.path.join(os.path.abspath(__file__), os.pardir)))
 
 setup(
     name='django-simple-api-key',
-    version='0.1.0',
+    version='0.1.1',
     packages=['simple_api_key'],
     license='MIT License',
     description='A simple Django app to provide users api keys.',
